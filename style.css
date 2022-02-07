@@ -1,0 +1,42 @@
+html{
+  background-color: #000000;
+  color: #ffffff
+}
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #000057;
+  padding: 10px 5px;
+}
+
+ul{
+  list-style:none;
+  margin-left:0px;
+}
+
+li{
+  padding:15px;
+
+}
+
+
+a{
+  color:#ffffff;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+a:hover{
+  background-color: #4169e1;
+
+}
+
+h1, h2, h3, h4{
+text-align: center;
+
+}
