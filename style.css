@@ -34,6 +34,8 @@ li a{
   color: white;
   text-align: justify;
   padding: 10px;
+   margin: 15px;
+  border-radius: 10px;
   text-decoration: none;
 }
 
@@ -41,14 +43,6 @@ li a:hover{
  background-color: #c0c0c0;
 
 }
-
-a{
-  text-align: justify;
-  padding: 10px;
-  margin: 15px;
-  border-radius: 10px;
-}
-
 
 i{
 padding: 10px;
