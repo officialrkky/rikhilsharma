@@ -19,10 +19,12 @@ text-align: center;
 }
 
 .sidebar{
-  padding: 2px;
-  background-color:#dc143c;
+  padding: 5px;
+  background-color: #808080;
   height: 100%;
-  text-align: left;
+  text-align: justify;
+  width-right: 250px;
+  width-left: 100px
 
 }
 
