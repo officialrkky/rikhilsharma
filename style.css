@@ -5,6 +5,8 @@
 
 #name{
   font-size:21px;
+  padding:10px;
+  margin: 10px;
 }
 
 #main{
@@ -28,7 +30,7 @@ li a{
   color: white;
   text-align: justify;
   padding: 10px;
-   margin: 15px;
+   margin: 10px;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -40,5 +42,5 @@ li a:hover{
 
 i{
 padding: 10px;
-margin: 5px;
+margin: 10px;
 }
