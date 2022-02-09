@@ -19,11 +19,17 @@ text-align: center;
 }
 
 #topbar{
-  margin: 2px;
-  background-color: #808080;
   width: 100%;
   text-align: justify;
+  
+}
+
+.list-head{
+  margin: 0px;
+  padding: 0px;
+  background-color: #808080;
   text-decoration: none;
+  text-align: justify;
 }
 
 .list{
