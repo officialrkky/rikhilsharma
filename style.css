@@ -18,15 +18,12 @@
 text-align: center;
 }
 
-.sidebar{
+.topbar{
   padding: 2px;
   background-color: #808080;
   width: 100%;
-}
-
-.sidebar a{
   text-align: justify;
-  padding: 2px;
+}
 
 ul{
   list-style: none;
