@@ -3,15 +3,7 @@
   color: #ffffff;
 }
 
-#heading_tag{
-  background-color:#dc143c;
-  text-align:center;
-  padding: 15px;
-  width: 100%;
-}
-
 #name{
-  padding:10px;
   font-size:21px;
 }
 
@@ -20,7 +12,7 @@ text-align: center;
  margin-top: 50px;
 }
 
-#topbar{
+#topbar h1, #topbar li{
 float: left;
 }
 
@@ -29,10 +21,6 @@ ul{
   margin: 10px;
   padding: 10px;
   text-align: justify;
-}
-
-li{
-float: left;
 }
 
 li a{
