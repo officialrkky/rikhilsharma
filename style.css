@@ -10,16 +10,20 @@
   width: 100%;
 }
 
+#name{
+  padding:10px;
+}
+
+#main{
+  text-align: center;
+}
 
 .sidebar{
   padding: 2px;
   background-color:#dc143c;
   height: 100%;
+  text-align: left;
 
-}
-
-#name{
-  padding:10px;
 }
 
 ul{
