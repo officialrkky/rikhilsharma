@@ -33,7 +33,7 @@ float: left;
 
 li a{
   color: white;
-  text-align: center;
+  text-align: justify;
   padding: 10px;
   text-decoration: none;
 }
@@ -45,5 +45,10 @@ li a:hover{
 
 a{
   text-align: justify;
-  padding: 5px;
+  padding: 10px;
+}
+
+
+i{
+padding: 5px;
 }
