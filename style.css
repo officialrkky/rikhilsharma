@@ -19,15 +19,14 @@ text-align: center;
 }
 
 #topbar{
-  padding: 2px;
+  margin: 2px;
   background-color: #808080;
   width: 100%;
   text-align: justify;
 }
 
 .option_topbar{
- margin:5px;
-  padding: 5px;
+  padding: 10px;
 }
 
 ul{
