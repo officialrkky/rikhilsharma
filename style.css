@@ -26,7 +26,7 @@ orange - #C3073F
 
 .navBar{
   position: fixed;
-  width: 100%
+  width: 100%;
 }
 
 .navBarName{
@@ -34,7 +34,7 @@ orange - #C3073F
   color: #C3073F;
 }
   
-.navBarList{
+.navBarList li{
   float: right;
   color: #C3073F;
   
