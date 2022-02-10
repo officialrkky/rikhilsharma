@@ -64,7 +64,8 @@ main{
 }
 
 #experience, #education, #honors_and_awards, #interest_and_hobbies{
-  padding: 10px;
+  margin: 2px;
+  padding: 8px;
   border: 1px, solid, #808080
 }
 
