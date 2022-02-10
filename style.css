@@ -7,8 +7,8 @@ light blue (words) - #b0c4de
 */
 
 *{
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #000080;
+  color: #b0c4de;
 }
 
 #index_background_image{
@@ -16,10 +16,6 @@ light blue (words) - #b0c4de
   background-repeat: no-repeat;
   background-size:auto;
 }
-
-
-
-
 
 #name{
   font-size:21px;
@@ -54,7 +50,7 @@ li a{
 }
 
 li a:hover{
- background-color: #c0c0c0;
+ background-color: #4166f5;
 
 }
 
