@@ -31,12 +31,20 @@ white - #EAE6DA
 
 .navBar li{
  float:left; 
- padding: 20px;
+ padding: 21px;
+}
+
+.navBar p{
+  font-size: 21px;
+  padding: 21px;
+  text-decoration: solid;
+  text-align: left;
+  color: #CD3C2A;
 }
 
 .navBar a{
-  font-size:16px;
-  padding: 20px;
+  font-size:21px;
+  padding: 21px;
   text-decoration: none;
   text-align: left;
   color: #CD3C2A;
