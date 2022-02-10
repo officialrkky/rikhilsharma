@@ -107,6 +107,6 @@ white - #EAE6DA
 
 .photos img{
   text-align: center;
-  width:100%;
+  max-width:100%;
   height:auto;
 }
