@@ -11,6 +11,7 @@ orange - #C3073F
   background-color: #1A1A1D;
   color: #4E4E50;
   width: 80%;
+  color: #f8f8ff;
 }
 
 .greet{
@@ -21,22 +22,12 @@ orange - #C3073F
 .greet h1{
   font-size: 96px;
   font-weight: 700px;
-  color: #f8f8ff;
 }
 
 .navBar{
   position: fixed;
   width: 100%;
   height: 100px;
-}
-
-.navBarName{
-  color: #f8f8ff;
-}
-  
-.navBarList{
-  color: #f8f8ff;
-  
 }
   
 .navBar ul{
@@ -54,8 +45,9 @@ orange - #C3073F
   padding: 16px;
   text-decoration: none;
 }
+
 .navBar a:hover{
-  
+  color: #C3073F;
 }
 
 
