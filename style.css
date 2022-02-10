@@ -31,21 +31,21 @@ orange - #C3073F
   
 .navBar ul{
   list-style-type: none;
-  margin: 0px;
+  margin: 10px;
   padding: 0px;
   background-color: #C3073F;
 }
 
 .navBar li{
  float:left; 
- margin: 16px;
+ padding: 10px;
 }
 
 .navBar a{
-  margin: 16px;
-  padding: 16px;
+  margin: 10px;
+  padding: 10px;
   text-decoration: none;
-  border-size: 2px;
+  border-size: 1px;
   border-color: #C3073F;
   border-style: solid;
   border-radius: 10px;
