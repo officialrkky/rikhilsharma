@@ -13,10 +13,10 @@ light red - #c97f7f
 }
   
 header{
-   width: 80%;
+ width: 80%;
  height: 50px;
- margin: 0 auto;
  background: #9a0000;
+ margin-top:10px;
 }
 
 .navBar{
@@ -30,6 +30,7 @@ header{
 .navBar h1{
   float:left;
   color: #d83131;
+  padding-top: 25px;
 }
 
 .navBar ul{
@@ -40,7 +41,6 @@ header{
  float: left;
  margin-left: 70px;
  padding-top: 25px;
- position: relative;
 }
 
 .navBar a{
