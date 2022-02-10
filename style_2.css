@@ -74,6 +74,7 @@ white - #EAE6DA
   text-decoration: none;
   text-align: left;
   color: #CD3C2A;
+  border-size:1px;
   border-color: #CD3C2A;
   border-radius:10px;
 }
@@ -81,6 +82,11 @@ white - #EAE6DA
 .aboutMeNavBar a:hover{
   color: #DA9B68;
 }
+
+.aboutMeNavBar a:active{
+  color: #DA9B68;
+}
+
 
 .greet{
   text-align:center;  
