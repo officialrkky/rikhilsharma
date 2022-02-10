@@ -12,11 +12,15 @@ light red - #c97f7f
   font-family: monospace;
 }
   
-.navBar{
- width: 80%;
+header{
+   width: 80%;
  height: 50px;
  margin: 0 auto;
  background: #9a0000;
+}
+
+.navBar{
+
 }
 
 .navBar nav{
@@ -25,6 +29,7 @@ light red - #c97f7f
 
 .navBar h1{
   float:left;
+  color: #d83131;
 }
 
 .navBar ul{
