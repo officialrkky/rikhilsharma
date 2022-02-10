@@ -17,7 +17,8 @@ white - #EAE6DA
 }
   
 .navBar{
- text-align: justify;
+ margin-left: 25%;
+  margin-right:25%;
 }
 
 .navBar ul{
