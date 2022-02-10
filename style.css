@@ -10,11 +10,12 @@ orange - #C3073F
 *{
   background-color: #1A1A1D;
   color: #f8f8ff;
+  font-family: monospace;
 }
 
 .navBar{
-  margin-right:50%;
-  margin-left: 50%;
+  margin-right:40%;
+  margin-left: 40%;
 }
 
 .navBar ul{
@@ -41,27 +42,24 @@ orange - #C3073F
 }
 
 .greet{
-  margin-top: 100px;  
+  text-align:center;  
 }
 
 .greet h1{
-  margin-left: 50%;
-  margin-right: 50%;
+  text-align:center;
   font-size: 96px;
   font-weight: 700px;
 }
 
 .greet h2{
-  margin-left: 50%;
-  margin-right: 50%;
+  text-align:center;
   font-size: 40px;
   font-weight: 600px;
 }
 
 
 .intro{
-  margin-left: 50%;
-  margin-right: 50%;
+  text-align: center;
 }
 
 .intro h3{
@@ -92,7 +90,7 @@ h2{
 }
 
 h3{
-  fpnt-size: 16px;
+  font-size: 16px;
 }
 
 main{
