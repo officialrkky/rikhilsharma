@@ -1,19 +1,21 @@
-/* color codes
-black - #0f0707
-dark red - #9a0000
-medium red - #c71e1e
-medium red (lighter) - #d83131
-light red - #c97f7f
+/* 
+FINAL color codes
+black - #000000
+base - brown - #692705
+bold - orange - #FF5700
+contrast dark brown - #CF8B64
+contrast light brown - #E5C7BC
+font - #FFEEE4
 */
 
 *{
-  background-color: #0f0707;
-  color: #c97f7f;
+  background-color: #692705;
+  color: #FFEEE4;
   font-family: monospace;
 }
   
 header{
- background: #9a0000;
+ background: #FF5700;
 }
 
 .navBar{
@@ -32,13 +34,13 @@ header::after{
    text-transform: uppercase;
   padding-top:25px;
   float:left;
-  color: #d83131;
-  background: #9a0000;
+  color: #CF8B64;
+
 }
 
 nav{
   float:right;
-  background: #9a0000;
+  background: #FF5700;
 }
 
 nav ul{
@@ -51,11 +53,10 @@ nav li{
  float: left;
  margin-left: 70px;
  padding-top: 25px;
-  background: #9a0000;
 }
 
 nav a{
-  color: #d83131;
+  color: #CF8B64;
   text-decoration: none;
   text-transform: uppercase;
   font-size:21px;
@@ -63,7 +64,7 @@ nav a{
 }
 
 nav a:hover{
-  color: #c71e1e;
+  color: #E5C7BC;
   text-decoration: solid;
 }
  
