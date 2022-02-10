@@ -27,6 +27,7 @@ header{
   float:left;
   color: #d83131;
   padding-top: 25px;
+  background: #9a0000;
 }
 
 .navBar ul{
@@ -37,6 +38,7 @@ header{
  float: left;
  margin-left: 70px;
  padding-top: 25px;
+ background: #9a0000;
 }
 
 .navBar a{
