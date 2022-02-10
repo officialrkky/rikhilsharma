@@ -14,8 +14,8 @@ orange - #C3073F
 }
 
 .navBar{
-  margin-right:40%;
-  margin-left: 40%;
+  margin-right:35%;
+  margin-left: 35%;
 }
 
 .navBar ul{
@@ -49,6 +49,8 @@ orange - #C3073F
   text-align:center;
   font-size: 96px;
   font-weight: 700px;
+  margin-top: 64px;
+  margin-bottom: 0px;
 }
 
 .greet h2{
