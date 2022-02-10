@@ -9,13 +9,13 @@ font - #FFEEE4
 */
 
 *{
-  background-color: #692705;
-  color: #FFEEE4;
+  background-color: #E5C7BC;
+  color: #000000;
   font-family: monospace;
 }
   
 header{
- background: #FF5700;
+ background: #CF8B64;
 }
 
 .navBar{
@@ -40,7 +40,7 @@ header::after{
 
 nav{
   float:right;
-  background: #FF5700;
+  background: #CF8B64;
 }
 
 nav ul{
@@ -53,18 +53,19 @@ nav li{
  float: left;
  margin-left: 70px;
  padding-top: 25px;
+  background: #CF8B64;
 }
 
 nav a{
-  color: #CF8B64;
+  color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   font-size:21px;
-  background: #9a0000;
+  background: #CF8B64;
 }
 
 nav a:hover{
-  color: #E5C7BC;
+  color: #7e5e60;
   text-decoration: solid;
 }
  
