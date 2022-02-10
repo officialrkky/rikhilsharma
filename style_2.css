@@ -54,7 +54,7 @@ white - #EAE6DA
 
 .aboutMeNavBar ul{
   list-style-type: none;
-  margin-top:150px;
+  margin-top:50px;
   margin-right: 20px;
   margin-bottom:20px;
   margin-left:20px;
@@ -68,7 +68,7 @@ white - #EAE6DA
  padding: 20px;
 }
 
-.aboutMeNavBar a{
+.aboutMeList a{
   font-size:16px;
   padding: 20px;
   text-decoration: none;
@@ -118,7 +118,7 @@ white - #EAE6DA
 
 .header{
   text-align:center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .information{
