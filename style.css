@@ -12,8 +12,8 @@ white - #EAE6DA
 }
 .websiteName{
   text-align:center;
-  font-size: 21px;
-  margin-top:5px;
+  font-size: 25px;
+  margin-top:10px;
 }
   
 .navBar{
@@ -23,19 +23,20 @@ white - #EAE6DA
 
 .navBar ul{
   list-style-type: none;
-  margin: 15px;
-  padding: 15px;
+  margin: 20px;
+  padding: 20px;
   width: 100%;
   height: 50px;
 }
 
 .navBar li{
  float:left; 
- padding: 15px;
+ padding: 20px;
 }
 
 .navBar a{
-  padding: 15px;
+  font-size:21px;
+  padding: 20px;
   text-decoration: none;
   text-align: left;
   color: #CD3C2A;
