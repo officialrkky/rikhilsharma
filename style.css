@@ -1,59 +1,55 @@
 /* color codes
-black - #21211F
-orange - #CD3C2A
-gold - #DA9B68
-white - #EAE6DA
+black - #0f0707
+dark red - #9a0000
+medium red - #c71e1e
+medium red (lighter) - #d83131
+light red - #c97f7f
 */
 
 *{
-  background-color: #EAE6DA;
-  color: #21211F;
+  background-color: #0f0707;
+  color: #c97f7f;
   font-family: monospace;
-}
-.websiteName{
-  text-align:center;
-  font-size: 25px;
-  margin-top:10px;
 }
   
 .navBar{
- margin-left:25%;
- margin-right:25%;
+ width: 80%;
+ height: 50px;
+ margin: 0 auto;
+ background: #9a0000;
+}
+
+.navBar nav{
+  float:right;
+}
+
+.navBar h1{
+  float:left;
 }
 
 .navBar ul{
-  list-style-type: none;
-  margin: 20px;
-  padding: 20px;
-  width: 100%;
-  height: 50px;
+  list-style: none;
 }
 
 .navBar li{
- float:left; 
- padding: 21px;
-}
-
-.navBar p{
-  font-size: 21px;
-  padding: 21px;
-  text-decoration: solid;
-  text-align: left;
-  color: #CD3C2A;
+ float: left;
+ margin-left: 70px;
+ padding-top: 25px;
+ position: relative;
 }
 
 .navBar a{
-  font-size:21px;
-  padding: 21px;
+  color: #d83131;
   text-decoration: none;
-  text-align: left;
-  color: #CD3C2A;
+  text-transform: uppercase;
+  font-size:21px;
 }
 
 .navBar a:hover{
-  color: #DA9B68;
+  color: #c71e1e;
+  text-decoration: solid;
 }
-
+ 
 
 .aboutMeNavBar{
  margin-left:15%;
