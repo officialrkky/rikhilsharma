@@ -87,6 +87,9 @@ white - #EAE6DA
   color: #DA9B68;
 }
 
+ul #activeAboutMe{
+  color: #DA9B68;
+}
 
 .greet{
   text-align:center;  
