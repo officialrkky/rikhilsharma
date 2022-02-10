@@ -30,11 +30,12 @@ header::after{
 }
 
 .navBarName{
+  background: #CF8B64;
   font-size: 21px;
-   text-transform: uppercase;
+  text-transform: uppercase;
   padding-top:25px;
   float:left;
-  color: #CF8B64;
+  color: #000000;
 
 }
 
