@@ -1,15 +1,13 @@
 /* color codes
-black - #1A1A1D
-gray - #4E4E50
-white - #f8f8ff
-brown - #6F2232
-bold pink - #C3073F
-orange - #C3073F
+black - #21211F
+orange - #CD3C2A
+gold - #DA9B68
+white - #EAE6DA
 */
 
 *{
-  background-color: #1A1A1D;
-  color: #f8f8ff;
+  background-color: #EAE6DA;
+  color: #21211F;
   font-family: monospace;
 }
 
@@ -35,10 +33,11 @@ orange - #C3073F
   padding: 16px;
   text-decoration: none;
   text-align: left;
+  color: #CD3C2A;
 }
 
 .navBar a:hover{
-  color: #C3073F;
+  color: #DA9B68;
 }
 
 .greet{
