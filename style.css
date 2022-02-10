@@ -49,6 +49,16 @@ orange - #C3073F
  float:left; 
 }
 
+.navBarList a{
+  text-align:center;
+  padding: 16px;
+  text-decoration: none;
+}
+.navBarList a:hover{
+  
+}
+
+
 .intro{
   margin: 16px 0px 0px;
 }
