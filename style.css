@@ -10,7 +10,12 @@ white - #EAE6DA
   color: #21211F;
   font-family: monospace;
 }
-
+.websiteName{
+  text-align:center;
+  font-size: 21px;
+  margin-top:5px;
+}
+  
 .navBar{
   margin-right:35%;
   margin-left: 35%;
@@ -18,19 +23,19 @@ white - #EAE6DA
 
 .navBar ul{
   list-style-type: none;
-  margin: 10px;
-  padding: 10px;
+  margin: 15px;
+  padding: 15px;
   width: 100%;
   height: 50px;
 }
 
 .navBar li{
  float:left; 
- padding: 16px;
+ padding: 15px;
 }
 
 .navBar a{
-  padding: 16px;
+  padding: 15px;
   text-decoration: none;
   text-align: left;
   color: #CD3C2A;
@@ -46,16 +51,16 @@ white - #EAE6DA
 
 .greet h1{
   text-align:center;
-  font-size: 96px;
+  font-size: 100px;
   font-weight: 700px;
-  margin-top: 64px;
+  margin-top: 65px;
   margin-bottom: 0px;
 }
 
 .greet h2{
   text-align:center;
-  font-size: 40px;
-  font-weight: 600px;
+  font-size: 50px;
+  font-weight: 500px;
 }
 
 
@@ -64,61 +69,36 @@ white - #EAE6DA
 }
 
 .intro h3{
-  font-size: 30px;
-  font-weight: 400px;
-}
-
-
-#name{
-  font-size:21px;
-  padding:20px;
-  margin: 8px;
+  font-size: 25px;
+  font-weight: 300px;
 }
 
 .header{
-text-align: center;
-margin-top: 200px;
-
+  text-align:center;
+  margin-top: 100px;
 }
- 
 
 .information{
+ margin-left: 30px;
  text-align: left; 
 }
 
-h2{
-  font-size: 26px;
+.information h2{
+  font-size: 20px;
 }
 
-h3{
-  font-size: 16px;
+.information h3{
+  font-size: 15px;
 }
 
-main{
-  margin:20px;
+.information a:hover{
+  color: #DA9B68;
 }
 
 #experience, #education, #honors_and_awards, #interest_and_hobbies{
   margin: 2px;
   padding: 8px;
-  border: 1px, solid, #808080
+  border: 1px, solid, #CD3C2A;
 }
 
 
-.header img{
-  width: 200px;
-  heigth: 200px;
-  float: left;
-}
-
-.information h2{
-  font-size: 26px;
-}
-  
-.information h3{
-  font-size: 16px;
-}
-
-.information a:hover{
-  color: #dc143c;
-}
