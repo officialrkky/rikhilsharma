@@ -17,8 +17,8 @@ white - #EAE6DA
 }
   
 .navBar{
-  margin-right:35%;
-  margin-left: 35%;
+  margin-right:30%;
+  margin-left: 30%;
 }
 
 .navBar ul{
@@ -97,11 +97,12 @@ white - #EAE6DA
 }
 
 #experience, #education, #honors_and_awards, #interest_and_hobbies, #skills{
-  margin: 1px;
+  margin: 10px;
   padding: 10px;
   border-size: 1px;
   border-color:#CD3C2A;
   border-style: solid;
+  border-radius: 15px;
 }
 
 
