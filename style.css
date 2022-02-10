@@ -1,15 +1,28 @@
 /* color codes
-dark blue (base) - #000080
-medium blue - (style) - #1c1cf0
-highlights soft blue - #4166f5
-light blue (words) - #b0c4de
-
+black - #1A1A1D
+gray - #4E4E50
+brown - #6F2232
+bold pink - #C3073F
+orange - #C3073F
 */
 
 *{
-  background-color: #000080;
-  color: #b0c4de;
+  background-color: #1A1A1D;
+  color: #4E4E50;
+  width: 80%;
 }
+
+.greet{
+  margin: 0px 136.5px;
+  padding: 288.3px 0px 0px;
+}
+
+.greet h1{
+  font-size: 96px;
+  font-weight: 700px;
+  color: #C3073F;
+}
+
 
 #index_background_image{
   background-image: url("https://wallpaperaccess.com/full/210888.jpg");
