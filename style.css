@@ -1,6 +1,7 @@
 /* color codes
 black - #1A1A1D
 gray - #4E4E50
+white - #f8f8ff
 brown - #6F2232
 bold pink - #C3073F
 orange - #C3073F
@@ -20,10 +21,34 @@ orange - #C3073F
 .greet h1{
   font-size: 96px;
   font-weight: 700px;
-  color: #C3073F;
+  color: #f8f8ff;
 }
 
+.navBar{
+  position: fixed;
+  width: 100%
+}
 
+.navBarName{
+  float: left;
+  color: #C3073F;
+}
+  
+.navBarList{
+  float: right;
+  color: #C3073F;
+  
+}
+  
+.intro{
+  margin: 16px 0px 0px;
+}
+
+.intro h2{
+  font-size: 40px;
+  font-weight: 600px;
+}
+  
 #index_background_image{
   background-image: url("https://wallpaperaccess.com/full/210888.jpg");
   background-repeat: no-repeat;
