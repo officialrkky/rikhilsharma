@@ -32,10 +32,12 @@ header::after{
   padding-top:25px;
   float:left;
   color: #d83131;
+  background: #9a0000;
 }
 
 nav{
   float:right;
+  background: #9a0000:
 }
 
 nav ul{
