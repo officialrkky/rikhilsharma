@@ -13,42 +13,51 @@ light red - #c97f7f
 }
   
 header{
- width: 80%;
- height: 50px;
  background: #9a0000;
 }
 
-.navBar nav{
-  float:right;
-  background: #9a0000;
+.navBar{
+   width: 80%;
+   margin: 0 auto;
 }
 
-.navBar h1{
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.navBarName{
+  font-size: 21px;
+  padding-top:25px;
   float:left;
   color: #d83131;
-  padding-top: 25px;
-  background: #9a0000;
 }
 
-.navBar ul{
+nav{
+  float:right;
+}
+
+nav ul{
+  margin: 0px;
+  padding:0px;
   list-style: none;
 }
 
-.navBar li{
+nav li{
  float: left;
  margin-left: 70px;
  padding-top: 25px;
- background: #9a0000;
 }
 
-.navBar a{
+nav a{
   color: #d83131;
   text-decoration: none;
   text-transform: uppercase;
   font-size:21px;
 }
 
-.navBar a:hover{
+nav a:hover{
   color: #c71e1e;
   text-decoration: solid;
 }
