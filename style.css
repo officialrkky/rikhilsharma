@@ -27,15 +27,17 @@ orange - #C3073F
 .navBar{
   position: fixed;
   width: 100%;
+  height: 64px;
+  float: left;
 }
 
 .navBarName{
-  width: 10%;
+  margin: 18px 0px 18px 0px;
   color: #C3073F;
 }
   
 .navBarList{
-  width: 45%;
+  margin: 18px 70px 18px 70px;
   color: #C3073F;
   
 }
