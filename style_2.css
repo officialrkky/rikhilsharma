@@ -63,9 +63,13 @@ white - #EAE6DA
   height: 50px;
 }
 
-.aboutMeNavBar li{
+.aboutMeList li{
  float:left; 
  padding: 20px;
+ border-size:1px;
+ border-color: #CD3C2A;
+ border-type: solid;
+ border-radius:10px;
 }
 
 .aboutMeList a{
@@ -76,6 +80,7 @@ white - #EAE6DA
   color: #CD3C2A;
   border-size:1px;
   border-color: #CD3C2A;
+  border-type: solid;
   border-radius:10px;
 }
 
@@ -83,12 +88,8 @@ white - #EAE6DA
   color: #DA9B68;
 }
 
-.aboutMeNavBar a:active{
-  color: #DA9B68;
-}
-
-ul #activeAboutMe{
-  color: #DA9B68;
+.activeAboutMe{
+  color: #DA9B68 !important;
 }
 
 .greet{
