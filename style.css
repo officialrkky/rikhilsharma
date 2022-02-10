@@ -16,34 +16,27 @@ header{
  width: 80%;
  height: 50px;
  background: #9a0000;
- margin-top:10px;
-}
-
-.navBar{
-
 }
 
 .navBar nav{
   float:right;
+  background: #9a0000;
 }
 
 .navBar h1{
   float:left;
   color: #d83131;
   padding-top: 25px;
-  background: #9a0000;
 }
 
 .navBar ul{
   list-style: none;
-  background: #9a0000;
 }
 
 .navBar li{
  float: left;
  margin-left: 70px;
  padding-top: 25px;
-  background: #9a0000;
 }
 
 .navBar a{
@@ -51,7 +44,6 @@ header{
   text-decoration: none;
   text-transform: uppercase;
   font-size:21px;
-  background: #9a0000;
 }
 
 .navBar a:hover{
