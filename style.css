@@ -105,6 +105,8 @@ white - #EAE6DA
   border-radius: 15px;
 }
 
-.photos a, .photos img{
+.photos img{
   text-align: center;
+  width:100%;
+  height:auto;
 }
