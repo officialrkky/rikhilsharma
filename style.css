@@ -90,6 +90,7 @@ white - #EAE6DA
 
 .activeAboutMe{
   color: #DA9B68 !important;
+  text-decoration-style: solid !important;
 }
 
 .greet{
