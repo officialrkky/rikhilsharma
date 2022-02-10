@@ -1,1 +1,111 @@
+/* color codes
+black - #21211F
+orange - #CD3C2A
+gold - #DA9B68
+white - #EAE6DA
+*/
 
+*{
+  background-color: #EAE6DA;
+  color: #21211F;
+  font-family: monospace;
+}
+.websiteName{
+  text-align:center;
+  font-size: 25px;
+  margin-top:10px;
+}
+  
+.navBar{
+ text-align: justify;
+}
+
+.navBar ul{
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.navBar li{
+ float:left; 
+ padding: 20px;
+}
+
+.navBar a{
+  font-size:16px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: left;
+  color: #CD3C2A;
+}
+
+.navBar a:hover{
+  color: #DA9B68;
+}
+
+.greet{
+  text-align:center;  
+}
+
+.greet h1{
+  text-align:center;
+  font-size: 100px;
+  font-weight: 700px;
+  margin-top: 65px;
+  margin-bottom: 0px;
+}
+
+.greet h2{
+  text-align:center;
+  font-size: 50px;
+  font-weight: 500px;
+}
+
+
+.intro{
+  text-align: center;
+}
+
+.intro h3{
+  font-size: 25px;
+  font-weight: 300px;
+}
+
+.header{
+  text-align:center;
+  margin-top: 100px;
+}
+
+.information{
+ margin-left: 30px;
+ text-align: left; 
+}
+
+.information h2{
+  font-size: 20px;
+}
+
+.information h3{
+  font-size: 15px;
+}
+
+.information a:hover{
+  color: #DA9B68;
+}
+
+#experience, #education, #honors_and_awards, #interest_and_hobbies, #skills{
+  margin: 20px;
+  padding: 10px;
+  border-size: 1px;
+  border-color:#CD3C2A;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.photos img{
+  text-align: center;
+  max-width:100%;
+  height:auto;
+}
