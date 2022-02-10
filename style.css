@@ -1,7 +1,6 @@
 *{
   background-color: #000000;
   color: #ffffff;
-  font-size: 16px;
 }
 
 #name{
@@ -50,4 +49,12 @@ margin: 10px;
 
 .information{
  text-align: left; 
+}
+
+h2{
+  font-size: 21px;
+}
+
+h3{
+  fpnt-size: 16px;
 }
