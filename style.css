@@ -30,12 +30,12 @@ orange - #C3073F
 }
 
 .navBarName{
-  float: left;
+  width: 10%;
   color: #C3073F;
 }
   
-.navBarList li{
-  float: right;
+.navBarList{
+  width: 45%;
   color: #C3073F;
   
 }
