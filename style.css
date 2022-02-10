@@ -28,7 +28,6 @@ orange - #C3073F
   position: fixed;
   width: 100%;
   height: 100px;
-  float: left;
 }
 
 .navBarName{
@@ -40,6 +39,16 @@ orange - #C3073F
   
 }
   
+.navBarList ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navBarList li{
+ float:left; 
+}
+
 .intro{
   margin: 16px 0px 0px;
 }
