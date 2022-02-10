@@ -1,2 +1,1 @@
-# http://Rikhil-Sharma
-My Personal Website
+# http://rikhilsharma.com
