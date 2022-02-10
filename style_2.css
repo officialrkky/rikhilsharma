@@ -54,7 +54,10 @@ white - #EAE6DA
 
 .aboutMeNavBar ul{
   list-style-type: none;
-  margin: 20px;
+  margin-top:200px;
+  margin-right: 20px;
+  margin-bottom:20px;
+  margin-left:20px;
   padding: 20px;
   width: 100%;
   height: 50px;
