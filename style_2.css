@@ -17,7 +17,8 @@ white - #EAE6DA
 }
   
 .navBar{
- text-align: justify;
+ margin-left:25%;
+ margin-right:25%;
 }
 
 .navBar ul{
@@ -46,17 +47,37 @@ white - #EAE6DA
 }
 
 
+.aboutMeNavBar{
+ margin-left:25%;
+ margin-right:25%;
+}
 
+.aboutMeNavBar ul{
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
+}
 
+.aboutMeNavBar li{
+ float:left; 
+ padding: 20px;
+}
 
+.aboutMeNavBar a{
+  font-size:16px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: left;
+  color: #CD3C2A;
+  border-color: #CD3C2A;
+  border-radius:10px;
+}
 
-
-
-
-
-
-
-
+.aboutMeNavBar a:hover{
+  color: #DA9B68;
+}
 
 .greet{
   text-align:center;  
