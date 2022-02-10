@@ -29,6 +29,7 @@ header::after{
 
 .navBarName{
   font-size: 21px;
+   text-transform: uppercase;
   padding-top:25px;
   float:left;
   color: #d83131;
