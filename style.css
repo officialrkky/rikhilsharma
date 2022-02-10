@@ -95,10 +95,12 @@ white - #EAE6DA
   color: #DA9B68;
 }
 
-#experience, #education, #honors_and_awards, #interest_and_hobbies{
-  margin: 2px;
-  padding: 8px;
-  border: 1px, solid, #CD3C2A;
+#experience, #education, #honors_and_awards, #interest_and_hobbies, #skills{
+  margin: 1px;
+  padding: 10px;
+  border-size: 1px;
+  border-color:#CD3C2A;
+  border-style: solid;
 }
 
 
