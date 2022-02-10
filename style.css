@@ -72,4 +72,5 @@ main{
 .header img{
   width: 200px;
   heigth: 200px;
+  float: left;
 }
