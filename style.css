@@ -14,7 +14,8 @@ font hover - #704241
 }
   
 header{
- background: #6d4427;
+ background: #fff6ed;
+ border-radius: 10px;
 }
 
 .navBar{
@@ -29,7 +30,7 @@ header::after{
 }
 
 .navBarName{
-  background: #6d4427;
+  background: #fff6ed;
   font-size: 21px;
   text-transform: uppercase;
   float:left;
@@ -42,7 +43,7 @@ header::after{
 
 nav{
   float:right;
-  background: #6d4427;
+  background: #fff6ed;
 }
 
 nav ul{
@@ -56,7 +57,7 @@ nav li{
  margin-left: 70px;
  padding-top: 25px;
  padding-bottom: 25px;
- background: #6d4427;
+ background: #fff6ed;
 }
 
 nav a{
@@ -64,7 +65,7 @@ nav a{
   text-decoration: none;
   text-transform: uppercase;
   font-size:21px;
-  background: #6d4427;
+  background: #fff6ed;
 }
 
 nav a:hover{
@@ -73,8 +74,8 @@ nav a:hover{
 }
  
 .activeNavBar{
-  color: #ffebcd !important;
-  text-decoration: underline solid #ffebcd !important;
+  color: #6d4427 !important;
+  text-decoration: underline solid #6d4427 !important;
 }
 
 .aboutMeNavBar{
@@ -111,8 +112,14 @@ nav a:hover{
 }
 
 .activeAboutMe{
-  color: #ffebcd !important;
-  text-decoration: underline solid #ffebcd !important;
+  color: #6d4427 !important;
+  text-decoration: underline solid #6d4427 !important;
+}
+
+.greet-and-intro{
+  margin:10px;
+  padding: 20px;
+  background: #fff6ed;
 }
 
 .greet{
