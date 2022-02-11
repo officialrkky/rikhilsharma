@@ -1,21 +1,22 @@
 /* 
 FINAL color codes
-contrast light brown (accents) - #fff6ed
-contrast dark brown (webpage base) - #ffebcd 
+website base (white) - #FFFFFF
+website accents (tan) - #ffebcd 
 dark brown - #6d4427
 black (font) - #000000
 font hover - #704241
 */
 
 *{
-  background-color: #fff6ed;
+  background-color: #FFFFFF;
   color: #000000;
   font-family: monospace;
 }
   
 header{
  background: #ffebcd;
- border-radius: 10px;
+ border-radius: 15px;
+ position: fixed;
 }
 
 .navBar{
@@ -69,8 +70,8 @@ nav a{
 }
 
 nav a:hover{
-  color: #ffebcd;
-  text-decoration: underline solid #ffebcd;
+  color: #6d4427;
+  text-decoration: underline solid #6d4427;
 }
  
 .activeNavBar{
@@ -108,7 +109,8 @@ nav a:hover{
 }
 
 .aboutMeNavBar a:hover{
-  color: #ffebcd;
+  color: #6d4427;
+  text-decoration: underline solid #6d4427;
 }
 
 .activeAboutMe{
@@ -116,22 +118,23 @@ nav a:hover{
   text-decoration: underline solid #6d4427 !important;
 }
 
-.greet-and-intro{
-  margin:10px;
-  padding: 20px;
-  background: #ffebcd;
-}
-
 .greet{
-  text-align:center;  
+  text-align:center;
+  margin-top: 65px;
+  margin-right: 20px;
+  margin-bottom: 65px;
+  margin-left: 20px;
+  padding-top: 50px;
+  padding-right:20px;
+  padding-bottom:50px;
+  padding-left:20px;
+  background: #ffebcd;
 }
 
 .greet h1{
   text-align:center;
   font-size: 100px;
   font-weight: 700px;
-  margin-top: 65px;
-  margin-bottom: 0px;
 }
 
 .greet h2{
@@ -139,7 +142,6 @@ nav a:hover{
   font-size: 50px;
   font-weight: 500px;
 }
-
 
 .intro{
   text-align: center;
