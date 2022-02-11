@@ -1,22 +1,20 @@
 /* 
 FINAL color codes
-black - #000000
-base - brown - #692705
-bold - orange - #FF5700
-contrast dark brown - #CF8B64
-contrast light brown - #E5C7BC
-font - #FFEEE4
-links (hover and active) - #DA9B68
+contrast dark brown (accents) - #fff6ed
+contrast light brown (webpage base) - #ffebcd 
+dark brown - #6d4427
+black (font) - #000000
+font hover - #704241
 */
 
 *{
-  background-color: #E5C7BC;
+  background-color: #ffebcd;
   color: #000000;
   font-family: monospace;
 }
   
 header{
- background: #CF8B64;
+ background: #fff6ed;
 }
 
 .navBar{
@@ -31,7 +29,7 @@ header::after{
 }
 
 .navBarName{
-  background: #CF8B64;
+  background: #fff6ed;
   font-size: 21px;
   text-transform: uppercase;
   float:left;
@@ -44,7 +42,7 @@ header::after{
 
 nav{
   float:right;
-  background: #CF8B64;
+  background: #fff6ed;
 }
 
 nav ul{
@@ -58,7 +56,7 @@ nav li{
  margin-left: 70px;
  padding-top: 25px;
  padding-bottom: 25px;
- background: #CF8B64;
+ background: #fff6ed;
 }
 
 nav a{
@@ -66,17 +64,17 @@ nav a{
   text-decoration: none;
   text-transform: uppercase;
   font-size:21px;
-  background: #CF8B64;
+  background: #fff6ed;
 }
 
 nav a:hover{
-  color: #DA9B68;
-  text-decoration: solid;
+  color: #704241;
+  text-decoration: underline solid #704241;
 }
  
 .activeNavBar{
-  color: #DA9B68 !important;
-  text-decoration-style: underline solid #DA9B68 !important;
+  color: #704241 !important;
+  text-decoration-style: underline solid #704241 !important;
 }
 
 .aboutMeNavBar{
@@ -99,7 +97,7 @@ nav a:hover{
  float:left; 
  padding: 20px;
  border-size:1px;
- border-color: #CD3C2A;
+ border-color: #6d4427;
  border-type: solid;
  border-radius:10px;
 }
@@ -109,20 +107,20 @@ nav a:hover{
   padding: 20px;
   text-decoration: none;
   text-align: left;
-  color: #CD3C2A;
+  color: #000000;
   border-size:1px;
-  border-color: #CD3C2A;
+  border-color: #6d4427;
   border-type: solid;
   border-radius:10px;
 }
 
 .aboutMeNavBar a:hover{
-  color: #DA9B68;
+  color: #704241;
 }
 
 .activeAboutMe{
-  color: #DA9B68 !important;
-  text-decoration-style: underline solid #DA9B68 !important;
+  color: #704241 !important;
+  text-decoration-style: underline solid #704241 !important;
 }
 
 .greet{
