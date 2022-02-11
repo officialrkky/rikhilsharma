@@ -74,6 +74,10 @@ nav a:hover{
   text-decoration: solid;
 }
  
+.activeNavBar{
+  color: #DA9B68 !important;
+  text-decoration-style: underline solid #DA9B68 !important;
+}
 
 .aboutMeNavBar{
  margin-left:15%;
@@ -118,7 +122,7 @@ nav a:hover{
 
 .activeAboutMe{
   color: #DA9B68 !important;
-  text-decoration-style: solid !important;
+  text-decoration-style: underline solid #DA9B68 !important;
 }
 
 .greet{
