@@ -1,20 +1,20 @@
 /* 
 FINAL color codes
-contrast dark brown (accents) - #fff6ed
-contrast light brown (webpage base) - #ffebcd 
+contrast light brown (accents) - #fff6ed
+contrast dark brown (webpage base) - #ffebcd 
 dark brown - #6d4427
 black (font) - #000000
 font hover - #704241
 */
 
 *{
-  background-color: #ffebcd;
+  background-color: #fff6ed;
   color: #000000;
   font-family: monospace;
 }
   
 header{
- background: #fff6ed;
+ background: #ffebcd;
  border-radius: 10px;
 }
 
@@ -30,7 +30,7 @@ header::after{
 }
 
 .navBarName{
-  background: #fff6ed;
+  background: #ffebcd;
   font-size: 21px;
   text-transform: uppercase;
   float:left;
@@ -43,7 +43,7 @@ header::after{
 
 nav{
   float:right;
-  background: #fff6ed;
+  background: #ffebcd;
 }
 
 nav ul{
@@ -57,7 +57,7 @@ nav li{
  margin-left: 70px;
  padding-top: 25px;
  padding-bottom: 25px;
- background: #fff6ed;
+ background: #ffebcd;
 }
 
 nav a{
@@ -65,7 +65,7 @@ nav a{
   text-decoration: none;
   text-transform: uppercase;
   font-size:21px;
-  background: #fff6ed;
+  background: #ffebcd;
 }
 
 nav a:hover{
@@ -119,7 +119,7 @@ nav a:hover{
 .greet-and-intro{
   margin:10px;
   padding: 20px;
-  background: #fff6ed;
+  background: #ffebcd;
 }
 
 .greet{
