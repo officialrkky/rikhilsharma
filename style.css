@@ -14,7 +14,7 @@ font hover - #704241
 }
   
 header{
- background: #fff6ed;
+ background: #6d4427;
 }
 
 .navBar{
@@ -29,7 +29,7 @@ header::after{
 }
 
 .navBarName{
-  background: #fff6ed;
+  background: #6d4427;
   font-size: 21px;
   text-transform: uppercase;
   float:left;
@@ -42,7 +42,7 @@ header::after{
 
 nav{
   float:right;
-  background: #fff6ed;
+  background: #6d4427;
 }
 
 nav ul{
@@ -56,7 +56,7 @@ nav li{
  margin-left: 70px;
  padding-top: 25px;
  padding-bottom: 25px;
- background: #fff6ed;
+ background: #6d4427;
 }
 
 nav a{
@@ -64,17 +64,17 @@ nav a{
   text-decoration: none;
   text-transform: uppercase;
   font-size:21px;
-  background: #fff6ed;
+  background: #6d4427;
 }
 
 nav a:hover{
-  color: #704241;
-  text-decoration: underline solid #704241;
+  color: #ffebcd;
+  text-decoration: underline solid #ffebcd;
 }
  
 .activeNavBar{
-  color: #704241 !important;
-  text-decoration-style: underline solid #704241 !important;
+  color: #ffebcd !important;
+  text-decoration: underline solid #ffebcd !important;
 }
 
 .aboutMeNavBar{
@@ -96,10 +96,6 @@ nav a:hover{
 .aboutMeList li{
  float:left; 
  padding: 20px;
- border-size:1px;
- border-color: #6d4427;
- border-type: solid;
- border-radius:10px;
 }
 
 .aboutMeList a{
@@ -108,19 +104,15 @@ nav a:hover{
   text-decoration: none;
   text-align: left;
   color: #000000;
-  border-size:1px;
-  border-color: #6d4427;
-  border-type: solid;
-  border-radius:10px;
 }
 
 .aboutMeNavBar a:hover{
-  color: #704241;
+  color: #ffebcd;
 }
 
 .activeAboutMe{
-  color: #704241 !important;
-  text-decoration-style: underline solid #704241 !important;
+  color: #ffebcd !important;
+  text-decoration: underline solid #ffebcd !important;
 }
 
 .greet{
