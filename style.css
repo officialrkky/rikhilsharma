@@ -6,51 +6,49 @@ dark brown - #6d4427
 black (font) - #000000
 font hover - #704241
 */
-
-*{
+  *{
   background-color: #FFFFFF;
   color: #000000;
   font-family: monospace;
-  width: 80%;
-}
-  
-header{
- background: #ffebcd;
- margin: 0px;
- padding: 15px;
- border-radius: 15px;
- height: 70px
 }
 
 .navBar{
-   margin: 0 auto;
+  width:80%;
+  margin: 0 auto;
+}
+
+header{
+ background: #ffebcd;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .navBarName{
-  background: #ffebcd;
+background: #ffebcd;
   float:left;
-  margin: 0px;
-  padding: 0px;
-  font-size: 21px;
-  text-transform: uppercase;
-  color: #000000;
 }
 
 nav{
-  background: #ffebcd;
+background: #ffebcd;
   float:right;
 }
 
 nav ul{
+background: #ffebcd;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 nav li{
- background: #ffebcd;
- display: inline-text;
- margin-left: 70px;
+background: #ffebcd;
+ display: inline-block;
+ padding-top:20px;
+ margin-left: 20px;
 }
 
 nav a{
@@ -59,13 +57,19 @@ nav a{
   text-transform: uppercase;
   font-size:21px;
   background: #ffebcd;
+  
 }
 
 nav a:hover{
   color: #6d4427;
   text-decoration: underline solid #6d4427;
 }
- 
+  
+  
+  
+
+/*about me SECTION */
+
 .activeNavBar{
   color: #6d4427 !important;
   text-decoration: underline solid #6d4427 !important;
