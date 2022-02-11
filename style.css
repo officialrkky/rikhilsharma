@@ -11,54 +11,46 @@ font hover - #704241
   background-color: #FFFFFF;
   color: #000000;
   font-family: monospace;
+  width: 80%;
 }
   
 header{
  background: #ffebcd;
+ margin: 0px;
+ padding: 15px;
  border-radius: 15px;
- position: fixed;
+ height: 70px
 }
 
 .navBar{
-   width: 80%;
    margin: 0 auto;
-}
-
-header::after{
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .navBarName{
   background: #ffebcd;
+  float:left;
+  margin: 0px;
+  padding: 0px;
   font-size: 21px;
   text-transform: uppercase;
-  float:left;
   color: #000000;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin: 0px;
-
 }
 
 nav{
-  float:right;
   background: #ffebcd;
+  float:right;
 }
 
 nav ul{
   margin: 0px;
-  padding:0px;
+  padding: 0px;
   list-style: none;
 }
 
 nav li{
- float: left;
- margin-left: 70px;
- padding-top: 25px;
- padding-bottom: 25px;
  background: #ffebcd;
+ display: inline-text;
+ margin-left: 70px;
 }
 
 nav a{
@@ -78,6 +70,7 @@ nav a:hover{
   color: #6d4427 !important;
   text-decoration: underline solid #6d4427 !important;
 }
+
 
 .aboutMeNavBar{
  margin-left:15%;
@@ -120,14 +113,8 @@ nav a:hover{
 
 .greet{
   text-align:center;
-  margin-top: 65px;
-  margin-right: 20px;
-  margin-bottom: 65px;
-  margin-left: 20px;
-  padding-top: 50px;
-  padding-right:20px;
-  padding-bottom:50px;
-  padding-left:20px;
+  margin: 80px 10px;
+  padding: 20px;
   background: #ffebcd;
 }
 
