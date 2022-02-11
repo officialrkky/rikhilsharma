@@ -36,6 +36,8 @@ header::after{
   text-transform: uppercase;
   float:left;
   color: #000000;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
 }
 
@@ -54,7 +56,8 @@ nav li{
  float: left;
  margin-left: 70px;
  padding-top: 25px;
-  background: #CF8B64;
+ padding-bottom: 25px;
+ background: #CF8B64;
 }
 
 nav a{
