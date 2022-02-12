@@ -1,8 +1,10 @@
 /* 
 FINAL color codes
-website base (white) - #FFFFFF
+white -  #FFFFFF
+off white - #faebd7
 website accents (tan) - #ffebcd 
 dark brown - #6d4427
+light brown - #a0522d
 black (font) - #000000
 font hover - #704241
 */
@@ -53,34 +55,28 @@ background: #ffebcd;
 }
 
 nav a{
-  color: black;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size:21px;
   padding: 10px;
-  background: #ffebcd;
+  background: #6d4427;
   border-radius: 10px;
-  border-size: 2px;
+  border-size: 1px;
   border-color: white;
   border-style: solid;
   
 }
 
 nav a:hover{
-  color: #6d4427;
-  padding: 10px;
-  background: white;
-  border-radius: 10px;
-  border-size: 1px;
-  border-color: white;
-  border-style: solid;
+  background: #a0522d;
 }
 
 /*about me SECTION */
 
 .activeNavBar{
-  color: #6d4427 !important;
-  text-decoration: underline solid #6d4427 !important;
+  color: #faebd7 !important;
+  background: #a0522d !important;
 }
 
 
@@ -114,13 +110,12 @@ nav a:hover{
 }
 
 .aboutMeNavBar a:hover{
-  color: #6d4427;
-  text-decoration: underline solid #6d4427;
+  background: #a0522d;
 }
 
 .activeAboutMe{
-  color: #6d4427 !important;
-  text-decoration: underline solid #6d4427 !important;
+  color: #faebd7 !important;
+  background: #a0522d !important;
 }
 
 .greet{
