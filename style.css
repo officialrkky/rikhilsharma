@@ -1,7 +1,7 @@
 /* 
-black (dark grey) - #222a2e
+black - #000000
 white - #FFFFFF
-grey - #2a3439
+grey - #222a2e
 neon blue - #69C9D0
 near blue (darker) - #3cb6bf
 neon pink - #EE1D52
@@ -9,7 +9,7 @@ neon pink (darker) - #c90f38
 */
 
 *{
-  background-color: #2a3439;
+  background-color: #222a2e;
   color: #FFFFFF;
   font-family: monospace;
 }
@@ -22,7 +22,7 @@ neon pink (darker) - #c90f38
 }
 
 header{
- background: #222a2e;
+ background: #000000;
  border-radius: 10px;
 }
 
@@ -35,36 +35,35 @@ header::after {
 .navBarName{
  color: #FFFFFF;
  float:left;
- background: #222a2e;
+ background: #000000;
 
 }
 
 nav{
-background: #222a2e;
+background: #000000;
   float:right;
 }
 
 nav ul{
-background: #222a2e;
+background: #000000;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 nav li{
-background: #222a2e;
+background: #000000;
  display: inline-block;
  padding-top:20px;
  margin-left: 20px;
 }
 
 nav a{
-  color: #EE1D52;
+  color: #FFFFFF;
   text-decoration: none;
-  text-transform: uppercase;
   font-size:21px;
   padding: 10px;
-  background: #222a2e;
+  background: #000000;
   border-radius: 10px;
   border-size: 1px;
   border-color: #EE1D52;
@@ -73,12 +72,12 @@ nav a{
 }
 
 nav a:hover{
-  color: #222a2e;
+  color: #000000;
   background: #EE1D52;
 }
 
 .activeNavBar{
-  color: #222a2e ;
+  color: #000000 ;
   background: #EE1D52 !important;
 }
 
@@ -89,20 +88,20 @@ nav a:hover{
     margin-left: 0px;
     height: 100%;
     width: 300px;
-    background: #222a2e;
+    background: #000000;
     float: left;
     border-radius: 10px;
  
 }
 
 .projectsNavBar ul{
-  background: #222a2e;
+  background: #000000;
   list-style-type: none;
 
 }
 
 .projectsList li{
- background: #222a2e;
+ background: #000000;
  display: block;
  padding: 20px;
  
@@ -113,17 +112,17 @@ nav a:hover{
   text-decoration: none;
   font-size:16px;
   padding: 10px;
-  background: #222a2e;
+  background: #000000;
   border-radius: 10px;
 }
 
 .projectsNavBar a:hover{
- color: #222a2e !important;
+ color: #000000 !important;
  background: #69C9D0 !important;
 }
 
 .activeProjects{
- color: #222a2e !important;
+ color: #000000 !important;
  background: #69C9D0 !important;
 }
 
@@ -133,20 +132,20 @@ nav a:hover{
     margin-left: 0px;
     height: 100%;
     width: 300px;
-    background: #222a2e;
+    background: #000000;
     float: left;
     border-radius: 10px;
  
 }
 
 .aboutMeNavBar ul{
-  background: #222a2e;
+  background: #000000;
   list-style-type: none;
 
 }
 
 .aboutMeList li{
- background: #222a2e;
+ background: #000000;
  display: block;
  padding: 20px;
  
@@ -157,17 +156,17 @@ nav a:hover{
   text-decoration: none;
   font-size:16px;
   padding: 10px;
-  background: #222a2e;
+  background: #000000;
   border-radius: 10px;
 }
 
 .aboutMeNavBar a:hover{
- color: #222a2e !important;
+ color: #000000 !important;
  background: #69C9D0 !important;
 }
 
 .activeAboutMe{
- color: #222a2e !important;
+ color: #000000 !important;
  background: #69C9D0 !important;
 }
 
