@@ -1,15 +1,16 @@
 /* 
-white -  #FFFFFF
-black - #
-dark green - #072227
-contrast dark green - #35858B
-contrast light green - #4FBDBA
-light green - #AEFEFF
+black (dark grey) - #292F33
+white - #FFFFFF
+grey - #333b40
+neon blue - #69C9D0
+near blue (darker) - #3cb6bf
+neon pink - #EE1D52
+neon pink (darker) - #c90f38
 */
 
 *{
-  background-color: #AEFEFF;
-  color: #white;
+  background-color: #333b40;
+  color: #FFFFFF;
   font-family: monospace;
 }
 
@@ -21,7 +22,7 @@ light green - #AEFEFF
 }
 
 header{
- background: #35858B;
+ background: #292F33;
  border-radius: 10px;
 }
 
@@ -32,52 +33,53 @@ header::after {
 }
 
 .navBarName{
- color: white;
+ color: #EE1D52;
  float:left;
- background: #35858B;
+ background: #292F33;
 
 }
 
 nav{
-background: #35858B;
+background: #292F33;
   float:right;
 }
 
 nav ul{
-background: #35858B;
+background: #292F33;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 nav li{
-background: #35858B;
+background: #292F33;
  display: inline-block;
  padding-top:20px;
  margin-left: 20px;
 }
 
 nav a{
-  color: white;
+  color: #EE1D52;
   text-decoration: none;
   text-transform: uppercase;
   font-size:21px;
   padding: 10px;
-  background: #35858B;
+  background: #292F33;
   border-radius: 10px;
   border-size: 1px;
-  border-color: white;
+  border-color: #EE1D52;
   border-style: solid;
   
 }
 
 nav a:hover{
-  background: #072227;
+  color: #292F33;
+  background: #EE1D52;
 }
 
 .activeNavBar{
-  color: white !important;
-  background: #072227 !important;
+  color: #292F33 ;
+  background: #EE1D52 !important;
 }
 
 /* PROJECTS NAVBAR */
@@ -87,42 +89,42 @@ nav a:hover{
     margin-left: 0px;
     height: 100%;
     width: 300px;
-    background: #35858B;
+    background: #292F33;
     float: left;
     border-radius: 10px;
  
 }
 
 .projectsNavBar ul{
-  background: #35858B;
+  background: #292F33;
   list-style-type: none;
 
 }
 
 .projectsList li{
- background: #35858B;
+ background: #292F33;
  display: block;
  padding: 20px;
  
 }
 
 .projectsList a{
-  color: white;
+  color: #69C9D0;
   text-decoration: none;
   font-size:16px;
   padding: 10px;
-  background: #35858B;
+  background: #292F33;
   border-radius: 10px;
 }
 
 .projectsNavBar a:hover{
- color: white !important;
- background: #072227;
+ color: #292F33 !important;
+ background: #69C9D0 !important;
 }
 
 .activeProjects{
-  color: white !important;
-  background: #072227 !important;
+ color: #292F33 !important;
+ background: #69C9D0 !important;
 }
 
 /* ABOUT ME NAVIGATION BAR */
@@ -131,20 +133,20 @@ nav a:hover{
     margin-left: 0px;
     height: 100%;
     width: 300px;
-    background: #35858B;
+    background: #292F33;
     float: left;
     border-radius: 10px;
  
 }
 
 .aboutMeNavBar ul{
-  background: #35858B;
+  background: #292F33;
   list-style-type: none;
 
 }
 
 .aboutMeList li{
- background: #35858B;
+ background: #292F33;
  display: block;
  padding: 20px;
  
@@ -155,18 +157,18 @@ nav a:hover{
   text-decoration: none;
   font-size:16px;
   padding: 10px;
-  background: #35858B;
+  background: #292F33;
   border-radius: 10px;
 }
 
 .aboutMeNavBar a:hover{
- color: white !important;
- background: #072227;
+ color: #292F33 !important;
+ background: #69C9D0 !important;
 }
 
 .activeAboutMe{
-  color: white !important;
-  background: #072227 !important;
+ color: #292F33 !important;
+ background: #69C9D0 !important;
 }
 
 /* Header for all webpages */
@@ -185,14 +187,14 @@ nav a:hover{
 }
 
 .greet h1{
-	background: #4FBDBA;
+  background: #292F33;
   text-align:center;
   font-size: 100px;
   font-weight: 700px;
 }
 
 .greet h2{
-background: #4FBDBA;
+background: #292F33;
   text-align:center;
   font-size: 50px;
   font-weight: 500px;
