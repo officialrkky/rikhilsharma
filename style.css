@@ -242,22 +242,17 @@ background: #4FBDBA;
 }
 
 
-/* About Me Display */
+  /* About Me Display */
+  
 .aboutMeInfo{
-margin-top: 50px;
- margin-left: 30px;
  text-align: left; 
 }
 
 .aboutMeInfo h2{
-  margin: 10px;
-  padding: 10px;
   font-size: 20px;
 }
 
 .aboutMeInfo h3{
-	margin: 10px;
-    padding: 10px;
   font-size: 15px;
 }
 
@@ -266,6 +261,7 @@ margin-top: 50px;
 }
 
 #information, #experience, #education, #honors_and_awards, #interest_and_hobbies, #skills{
+	padding: 10px;
   margin-left: 310px;
   border-size: 1px;
   border-color:#35858B;
