@@ -1,5 +1,5 @@
 /* 
-black - #000000
+black - #161b1e
 white - #FFFFFF
 grey - #222a2e
 neon blue - #69C9D0
@@ -22,7 +22,7 @@ neon pink (darker) - #c90f38
 }
 
 header{
- background: #000000;
+ background: #161b1e;
  border-radius: 10px;
 }
 
@@ -35,24 +35,24 @@ header::after {
 .navBarName{
  color: #FFFFFF;
  float:left;
- background: #000000;
+ background: #161b1e;
 
 }
 
 nav{
-background: #000000;
+background: #161b1e;
   float:right;
 }
 
 nav ul{
-background: #000000;
+background: #161b1e;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 nav li{
-background: #000000;
+background: #161b1e;
  display: inline-block;
  padding-top:20px;
  margin-left: 20px;
@@ -63,7 +63,7 @@ nav a{
   text-decoration: none;
   font-size:21px;
   padding: 10px;
-  background: #000000;
+  background: #161b1e;
   border-radius: 10px;
   border-size: 1px;
   border-color: #EE1D52;
@@ -72,12 +72,12 @@ nav a{
 }
 
 nav a:hover{
-  color: #000000;
+  color: #161b1e;
   background: #EE1D52;
 }
 
 .activeNavBar{
-  color: #000000 ;
+  color: #161b1e ;
   background: #EE1D52 !important;
 }
 
@@ -88,20 +88,20 @@ nav a:hover{
     margin-left: 0px;
     height: 100%;
     width: 300px;
-    background: #000000;
+    background: #161b1e;
     float: left;
     border-radius: 10px;
  
 }
 
 .projectsNavBar ul{
-  background: #000000;
+  background: #161b1e;
   list-style-type: none;
 
 }
 
 .projectsList li{
- background: #000000;
+ background: #161b1e;
  display: block;
  padding: 20px;
  
@@ -112,17 +112,17 @@ nav a:hover{
   text-decoration: none;
   font-size:16px;
   padding: 10px;
-  background: #000000;
+  background: #161b1e;
   border-radius: 10px;
 }
 
 .projectsNavBar a:hover{
- color: #000000 !important;
+ color: #161b1e !important;
  background: #69C9D0 !important;
 }
 
 .activeProjects{
- color: #000000 !important;
+ color: #161b1e !important;
  background: #69C9D0 !important;
 }
 
@@ -132,20 +132,20 @@ nav a:hover{
     margin-left: 0px;
     height: 100%;
     width: 300px;
-    background: #000000;
+    background: #161b1e;
     float: left;
     border-radius: 10px;
  
 }
 
 .aboutMeNavBar ul{
-  background: #000000;
+  background: #161b1e;
   list-style-type: none;
 
 }
 
 .aboutMeList li{
- background: #000000;
+ background: #161b1e;
  display: block;
  padding: 20px;
  
@@ -156,17 +156,17 @@ nav a:hover{
   text-decoration: none;
   font-size:16px;
   padding: 10px;
-  background: #000000;
+  background: #161b1e;
   border-radius: 10px;
 }
 
 .aboutMeNavBar a:hover{
- color: #000000 !important;
+ color: #161b1e !important;
  background: #69C9D0 !important;
 }
 
 .activeAboutMe{
- color: #000000 !important;
+ color: #161b1e !important;
  background: #69C9D0 !important;
 }
 
@@ -181,19 +181,19 @@ nav a:hover{
   text-align:center;
   margin: 80px 10px;
   padding: 20px;
-  background: #4FBDBA;
+  background: #69C9D0;
   border-radius: 10px;
 }
 
 .greet h1{
-  background: #292F33;
+  background: #69C9D0;
   text-align:center;
   font-size: 100px;
   font-weight: 700px;
 }
 
 .greet h2{
-background: #292F33;
+background: #69C9D0;
   text-align:center;
   font-size: 50px;
   font-weight: 500px;
