@@ -80,12 +80,55 @@ nav a:hover{
   background: #072227 !important;
 }
 
+/* PROJECTS NAVBAR */
+
+.projectsNavBar{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 300px;
+    background: #35858B;
+    float: left;
+    border-radius: 10px;
+ 
+}
+
+.projectsNavBar ul{
+  background: #35858B;
+  list-style-type: none;
+
+}
+
+.projectsList li{
+ background: #35858B;
+ display: block;
+ padding: 20px;
+ 
+}
+
+.projectsList a{
+  color: white;
+  text-decoration: none;
+  font-size:16px;
+  padding: 10px;
+  background: #35858B;
+  border-radius: 10px;
+}
+
+.projectsNavBar a:hover{
+ color: white !important;
+ background: #072227;
+}
+
+.activeProjects{
+  color: white !important;
+  background: #072227 !important;
+}
+
 /* ABOUT ME NAVIGATION BAR */
-
-
 .aboutMeNavBar{
-	margin-top: 0px;
-	margin-left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
     height: 100%;
     width: 300px;
     background: #35858B;
@@ -126,8 +169,13 @@ nav a:hover{
   background: #072227 !important;
 }
 
-/* INDEX GREETING CARD */
+/* Header for all webpages */
+.header{
+  text-align:center;
+  margin-top: 50px;
+}
 
+/* INDEX GREETING */
 .greet{
   text-align:center;
   margin: 80px 10px;
@@ -161,30 +209,59 @@ background: #4FBDBA;
 }
 
 
-.header{
-  text-align:center;
-  margin-top: 50px;
-}
 
-.information{
-margin-top: 50px;
+/* Projects Display */
+.projectsInfo{
+ margin-top: 50px;
  margin-left: 30px;
  text-align: left; 
 }
 
-.information h2{
+.projectsInfo h2{
   margin: 10px;
   padding: 10px;
   font-size: 20px;
 }
 
-.information h3{
+.projectsInfo h3{
 	margin: 10px;
     padding: 10px;
   font-size: 15px;
 }
 
-.information a:hover{
+.projectsInfo a:hover{
+  color: #DA9B68;
+}
+
+#project1, #project2, #project3, #project4, #project5, #miniProjects{
+  margin-left: 310px;
+  border-size: 1px;
+  border-color:#35858B;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+
+/* About Me Display */
+.aboutMeInfo{
+margin-top: 50px;
+ margin-left: 30px;
+ text-align: left; 
+}
+
+.aboutMeInfo h2{
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.aboutMeInfo h3{
+	margin: 10px;
+    padding: 10px;
+  font-size: 15px;
+}
+
+.aboutMeInfo a:hover{
   color: #DA9B68;
 }
 
@@ -196,6 +273,8 @@ margin-top: 50px;
   border-radius: 10px;
 }
   
+
+/* Gallery Display*/
 .photos img{
   text-align: center;
   max-width:100%;
