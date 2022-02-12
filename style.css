@@ -1,18 +1,19 @@
 /* 
-FINAL color codes
 white -  #FFFFFF
-off white - #faebd7
-website accents (tan) - #ffebcd 
-dark brown - #6d4427
-light brown - #a0522d
-black (font) - #000000
-font hover - #704241
+black - #
+dark green - #072227
+contrast dark green - #35858B
+contrast light green - #4FBDBA
+light green - #AEFEFF
 */
-  *{
+
+*{
   background-color: #AEFEFF;
   color: #white;
   font-family: monospace;
 }
+
+/* MAIN NAVIGATION BAR */
 
 .navBar{
   width:80%;
@@ -74,51 +75,59 @@ nav a:hover{
   background: #072227;
 }
 
-/*about me SECTION */
-
 .activeNavBar{
-  color: #faebd7 !important;
-  background: #a0522d !important;
+  color: white !important;
+  background: #072227 !important;
 }
+
+/* ABOUT ME NAVIGATION BAR */
 
 
 .aboutMeNavBar{
- margin-left:15%;
- margin-right:15%;
+	margin-top: 0px;
+	margin-left: 0px;
+    height: 100%;
+    width: 300px;
+    background: #35858B;
+    float: left;
+    border-radius: 10px;
+ 
 }
 
 .aboutMeNavBar ul{
+  background: #35858B;
   list-style-type: none;
-  margin-top:50px;
-  margin-right: 20px;
-  margin-bottom:20px;
-  margin-left:20px;
-  padding: 20px;
-  width: 100%;
-  height: 50px;
+
 }
 
 .aboutMeList li{
- float:left; 
+ background: #35858B;
+ display: block;
  padding: 20px;
+ 
 }
 
 .aboutMeList a{
-  font-size:16px;
-  padding: 20px;
+  color: white;
   text-decoration: none;
-  text-align: left;
-  color: #000000;
+  font-size:16px;
+  padding: 10px;
+  background: #35858B;
+  border-radius: 10px;
 }
 
 .aboutMeNavBar a:hover{
-  background: #a0522d;
+ color: white !important;
+ background: #072227;
 }
 
 .activeAboutMe{
-  color: #faebd7 !important;
-  background: #a0522d !important;
+  color: white !important;
+  background: #072227 !important;
 }
+
+/* INDEX GREETING CARD */
+
 .greet{
   text-align:center;
   margin: 80px 10px;
@@ -151,21 +160,27 @@ background: #4FBDBA;
   font-weight: 300px;
 }
 
+
 .header{
   text-align:center;
   margin-top: 50px;
 }
 
 .information{
+margin-top: 50px;
  margin-left: 30px;
  text-align: left; 
 }
 
 .information h2{
+  margin: 10px;
+  padding: 10px;
   font-size: 20px;
 }
 
 .information h3{
+	margin: 10px;
+    padding: 10px;
   font-size: 15px;
 }
 
@@ -174,14 +189,13 @@ background: #4FBDBA;
 }
 
 #information, #experience, #education, #honors_and_awards, #interest_and_hobbies, #skills{
-  margin: 20px;
-  padding: 10px;
+  margin-left: 310px;
   border-size: 1px;
-  border-color:#CD3C2A;
+  border-color:#35858B;
   border-style: solid;
-  border-radius: 15px;
+  border-radius: 10px;
 }
-
+  
 .photos img{
   text-align: center;
   max-width:100%;
