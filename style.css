@@ -8,9 +8,9 @@ light brown - #a0522d
 black (font) - #000000
 font hover - #704241
 */
- *{
-  background-color: #FFFFFF;
-  color: #000000;
+  *{
+  background-color: #AEFEFF;
+  color: #white;
   font-family: monospace;
 }
 
@@ -20,7 +20,7 @@ font hover - #704241
 }
 
 header{
- background: #ffebcd;
+ background: #35858B;
  border-radius: 10px;
 }
 
@@ -31,24 +31,26 @@ header::after {
 }
 
 .navBarName{
-background: #ffebcd;
-  float:left;
+ color: white;
+ float:left;
+ background: #35858B;
+
 }
 
 nav{
-background: #ffebcd;
+background: #35858B;
   float:right;
 }
 
 nav ul{
-background: #ffebcd;
+background: #35858B;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 nav li{
-background: #ffebcd;
+background: #35858B;
  display: inline-block;
  padding-top:20px;
  margin-left: 20px;
@@ -60,7 +62,7 @@ nav a{
   text-transform: uppercase;
   font-size:21px;
   padding: 10px;
-  background: #6d4427;
+  background: #35858B;
   border-radius: 10px;
   border-size: 1px;
   border-color: white;
@@ -69,7 +71,7 @@ nav a{
 }
 
 nav a:hover{
-  background: #a0522d;
+  background: #072227;
 }
 
 /*about me SECTION */
@@ -117,24 +119,27 @@ nav a:hover{
   color: #faebd7 !important;
   background: #a0522d !important;
 }
-
 .greet{
   text-align:center;
   margin: 80px 10px;
   padding: 20px;
-  background: #ffebcd;
+  background: #4FBDBA;
+  border-radius: 10px;
 }
 
 .greet h1{
+	background: #4FBDBA;
   text-align:center;
   font-size: 100px;
   font-weight: 700px;
 }
 
 .greet h2{
+background: #4FBDBA;
   text-align:center;
   font-size: 50px;
   font-weight: 500px;
+  margin-bottom: 80px;
 }
 
 .intro{
