@@ -44,6 +44,7 @@ header::after {
 nav{
 background: #161b1e;
   float:right;
+	position: relative;
 }
 
 nav ul{
