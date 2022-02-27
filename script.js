@@ -13,6 +13,11 @@ $(document).ready(() => {
     $('#project5').hide()
     $('#miniProjects').hide()
     
+    $('#htmlCert').hide()
+    $('#cssCert').hide()
+    $('#jsCert').hide()
+    $('#pyCert').hide()
+    
   
   $('#activeInformation').on('click', () => {
     $('#information').show()
