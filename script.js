@@ -12,6 +12,11 @@ $(document).ready(() => {
     $('#project4').hide()
     $('#project5').hide()
     $('#miniProjects').hide()
+    
+    $("#HTML-cert").hide()
+    $("#CSS-cert").hide()
+    $("#JS-cert").hide()
+    $("#python-cert").hide()
   
   $('#activeInformation').on('click', () => {
     $('#information').show()
@@ -130,7 +135,21 @@ $('#activeProject1').on('click', () => {
         $('#miniProjects').show()  
     });    
     
+    $('#HTML-cert-open').on('click', () => {
+        $('#HTML-cert').show()  
+    });  
     
+    $('#CSS-cert-open').on('click', () => {
+        $('#CSS-cert').show()  
+    });    
+    
+    $('#JS-cert-open').on('click', () => {
+        $('#JS-cert').show()  
+    });    
+    
+    $('#python-cert-open').on('click', () => {
+        $('#python-cert').show()  
+    });
 });
 
 
