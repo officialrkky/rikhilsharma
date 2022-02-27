@@ -13,10 +13,10 @@ $(document).ready(() => {
     $('#project5').hide()
     $('#miniProjects').hide()
     
-    $("#HTML-cert").hide()
-    $("#CSS-cert").hide()
-    $("#JS-cert").hide()
-    $("#python-cert").hide()
+    $('#HTML-cert').hide()
+    $('#CSS-cert').hide()
+    $('#JS-cert').hide()
+    $('#python-cert').hide()
   
   $('#activeInformation').on('click', () => {
     $('#information').show()
