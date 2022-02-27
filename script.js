@@ -136,20 +136,20 @@ $('#activeProject1').on('click', () => {
         $('#miniProjects').show()  
     });    
     
-    $('#openHtmlCert').on('click', () => {       
-        $('#htmlCert').toggle()  
-    });  
+$('#openHtmlCert').on('click', () => {       
+    $('#htmlCert').toggle()  
+   });  
     
-    $('#openCssCert').on('click', () => {
-        $('#cssCert').toggle()  
-    });    
+$('#openCssCert').on('click', () => {  
+    $('#cssCert').toggle()  
+   });    
     
-    $('#openJsCert').on('click', () => {
-        $('#jsCert').toggle()  
-    });    
+$('#openJsCert').on('click', () => {
+    $('#jsCert').toggle()  
+   });    
     
-    $('#openPyCert').on('click', () => {
-        $('#pyCert').toggle()  
+$('#openPyCert').on('click', () => {
+    $('#pyCert').toggle()  
     });
 });
 
