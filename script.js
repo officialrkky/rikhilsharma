@@ -6,12 +6,12 @@ $(document).ready(() => {
     $('#honors_and_awards').hide()
     $('#skills').hide()
     
-    $('project1').show()
-    $('project2').hide()
-    $('project3').hide()
-    $('project4').hide()
-    $('project5').hide()
-    $('miniProjects').hide()
+    $('#project1').show()
+    $('#project2').hide()
+    $('#project3').hide()
+    $('#project4').hide()
+    $('#project5').hide()
+    $('#miniProjects').hide()
   
   $('#activeInformation').on('click', () => {
     $('#information').show()
@@ -75,59 +75,59 @@ $(document).ready(() => {
   });
     
 $('#activeProject1').on('click', () => {
-        $('project1').show()
-        $('project2').hide()
-        $('project3').hide()
-        $('project4').hide()
-        $('project5').hide()
-        $('miniProjects').hide()  
+        $('#project1').show()
+        $('#project2').hide()
+        $('#project3').hide()
+        $('#project4').hide()
+        $('#project5').hide()
+        $('#miniProjects').hide()  
     });
     
     $('#activeProject2').on('click', () => {
-        $('project1').hide()
-        $('project2').show()
-        $('project3').hide()
-        $('project4').hide()
-        $('project5').hide()
-        $('miniProjects').hide()  
+        $('#project1').hide()
+        $('#project2').show()
+        $('#project3').hide()
+        $('#project4').hide()
+        $('#project5').hide()
+        $('#miniProjects').hide()  
     });
 
         $('#activeProject3').on('click', () => {
-        $('project1').hide()
-        $('project2').hide()
-        $('project3').show()
-        $('project4').hide()
-        $('project5').hide()
-        $('miniProjects').hide()  
+        $('#project1').hide()
+        $('#project2').hide()
+        $('#project3').show()
+        $('#project4').hide()
+        $('#project5').hide()
+        $('#miniProjects').hide()  
     });
     
     $('#activeProject4').on('click', () => {
-        $('project1').hide()
-        $('project2').hide()
-        $('project3').hide()
-        $('project4').show()
-        $('project5').hide()
-        $('miniProjects').hide()  
+        $('#project1').hide()
+        $('#project2').hide()
+        $('#project3').hide()
+        $('#project4').show()
+        $('#project5').hide()
+        $('#miniProjects').hide()  
     });  
     
 
     $('#activeProject5').on('click', () => {
-        $('project1').hide()
-        $('project2').hide()
-        $('project3').hide()
-        $('project4').hide()
-        $('project5').show()
-        $('miniProjects').hide()  
+        $('#project1').hide()
+        $('#project2').hide()
+        $('#project3').hide()
+        $('#project4').hide()
+        $('#project5').show()
+        $('#miniProjects').hide()  
     });
 
 
     $('#activeMiniProjects').on('click', () => {
-        $('project1').hide()
-        $('project2').hide()
-        $('project3').hide()
-        $('project4').hide()
-        $('project5').hide()
-        $('miniProjects').show()  
+        $('#project1').hide()
+        $('#project2').hide()
+        $('#project3').hide()
+        $('#project4').hide()
+        $('#project5').hide()
+        $('#miniProjects').show()  
     });    
     
     
