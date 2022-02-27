@@ -132,19 +132,19 @@ $('#activeProject1').on('click', () => {
     });    
     
     $('#openHtmlCert').on('click', () => {
-        $('#htmlCert').show()  
+        $('#htmlCert').toggle()  
     });  
     
     $('#openCssCert').on('click', () => {
-        $('#cssCert').show()  
+        $('#cssCert').toggle()  
     });    
     
     $('#openJsCert').on('click', () => {
-        $('#jsCert').show()  
+        $('#jsCert').toggle()  
     });    
     
     $('#openPyCert').on('click', () => {
-        $('#pyCert').show()  
+        $('#pyCert').toggle()  
     });
 });
 
