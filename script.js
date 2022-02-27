@@ -5,6 +5,13 @@ $(document).ready(() => {
     $('#interest_and_hobbies').hide()
     $('#honors_and_awards').hide()
     $('#skills').hide()
+    
+    $('project1').show()
+    $('project2').hide()
+    $('project3').hide()
+    $('project4').hide()
+    $('project5').hide()
+    $('miniProjects').hide()
   
   $('#activeInformation').on('click', () => {
     $('#information').show()
@@ -67,17 +74,7 @@ $(document).ready(() => {
     $('#skills').show()
   });
     
-});
-
-$(document).ready(() => {
-    $('project1').show()
-    $('project2').hide()
-    $('project3').hide()
-    $('project4').hide()
-    $('project5').hide()
-    $('miniProjects').hide()
-    
-    $('#activeProject1').on('click', () => {
+$('#activeProject1').on('click', () => {
         $('project1').show()
         $('project2').hide()
         $('project3').hide()
@@ -131,9 +128,9 @@ $(document).ready(() => {
         $('project4').hide()
         $('project5').hide()
         $('miniProjects').show()  
-    });
-
+    });    
+    
+    
 });
-
 
 
