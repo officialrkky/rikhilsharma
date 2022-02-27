@@ -15,26 +15,26 @@ $(document).ready(() => {
     $('#experience').show()
 
   });
-})
 
   $('#activeEducation').on('click', () => {
     $('#education').show()
 
   });
-})
+
 
   $('#activeInterestAndHobbies').on('click', () => {
     $('#interest_and_hobbies').show()
 
   });
-})
+
 
   $('#activeHonorsAndAwards').on('click', () => {
     $('#honors_and_awards').show()
   });
-})
+
 
   $('#activeSkills').on('click', () => {
     $('#skills').show()
   });
+    
 })
