@@ -136,7 +136,7 @@ $('#activeProject1').on('click', () => {
         $('#miniProjects').show()  
     });    
     
-    $('#openHtmlCert').on('click', () => {
+    $('#openHtmlCert').on('click', () => {       
         $('#htmlCert').toggle()  
     });  
     
