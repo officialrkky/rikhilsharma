@@ -13,10 +13,10 @@ $(document).ready(() => {
     $('#project5').hide()
     $('#miniProjects').hide()
     
-    $('#HTML-cert').hide()
-    $('#CSS-cert').hide()
-    $('#JS-cert').hide()
-    $('#python-cert').hide()
+    $('#htmlCert').hide()
+    $('#cssCert').hide()
+    $('#jsCert').hide()
+    $('#pyCert').hide()
   
   $('#activeInformation').on('click', () => {
     $('#information').show()
@@ -135,20 +135,20 @@ $('#activeProject1').on('click', () => {
         $('#miniProjects').show()  
     });    
     
-    $('#HTML-cert-open').on('click', () => {
-        $('#HTML-cert').show()  
+    $('#openHtmlCert').on('click', () => {
+        $('#htmlCert').show()  
     });  
     
-    $('#CSS-cert-open').on('click', () => {
-        $('#CSS-cert').show()  
+    $('#openCssCert').on('click', () => {
+        $('#cssCert').show()  
     });    
     
-    $('#JS-cert-open').on('click', () => {
-        $('#JS-cert').show()  
+    $('#openJsCert').on('click', () => {
+        $('#jsCert').show()  
     });    
     
-    $('#python-cert-open').on('click', () => {
-        $('#python-cert').show()  
+    $('#openPyCert').on('click', () => {
+        $('#pyCert').show()  
     });
 });
 
